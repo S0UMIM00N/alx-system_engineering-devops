@@ -1,4 +1,2 @@
 #!/bin/bash
-
-# find all files starting with uppercase letter
-find . -type f -name '[A-Z]*' -exec mv {} /tmp/u \;
+mv [[:upper:]]* /tmp/u
